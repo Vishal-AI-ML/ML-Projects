@@ -1,17 +1,21 @@
-# House Price Prediction Using Supervised Learning
+# Machine Learning Projects
 
-## Overview
-This project predicts house prices using the California Housing dataset with supervised learning techniques. It implements Linear Regression and Random Forest models to achieve an R² score of 0.85 with Random Forest, demonstrating robust regression performance.
+This repository contains two beginner-friendly machine learning projects showcasing supervised and unsupervised learning techniques, ideal for a fresher's resume.
 
-## Dataset
-- **Source**: California Housing dataset from scikit-learn
-- **Features**: Median income, house age, average rooms, etc.
-- **Target**: Median house price
+## Projects
+
+1. **House Price Prediction Using Supervised Learning**
+   - Predicts house prices using the California Housing dataset with Linear Regression and Random Forest (R²: 0.85).
+   - Folder: `house_price_prediction`
+   - Details: [README](house_price_prediction/README.md)
+
+2. **Customer Segmentation Using Unsupervised Learning**
+   - Segments customers using K-Means clustering on the Mall Customer dataset (Silhouette Score: 0.55).
+   - Folder: `customer_segmentation`
+   - Details: [README](customer_segmentation/README.md)
 
 ## Requirements
 - Python 3.x
-- Libraries: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`, `joblib`
-
-Install dependencies:
-```bash
-pip install -r requirements.txt
+- Install dependencies for each project using:
+  ```bash
+  pip install -r <project_folder>/requirements.txt
